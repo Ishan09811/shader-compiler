@@ -1,10 +1,10 @@
 // SPDX-FileCopyrightText: Copyright 2023 yuzu Emulator Project
 // SPDX-License-Identifier: GPL-2.0-or-later
 
-#include "shader_compiler/frontend/ir/ir_emitter.h"
-#include "shader_compiler/frontend/ir/opcodes.h"
-#include "shader_compiler/frontend/ir/value.h"
-#include "shader_compiler/ir_opt/passes.h"
+#include <shader_compiler/frontend/ir/ir_emitter.h>
+#include <shader_compiler/frontend/ir/opcodes.h>
+#include <shader_compiler/frontend/ir/value.h>
+#include <shader_compiler/ir_opt/passes.h>
 
 namespace Shader::Optimization {
 namespace {
